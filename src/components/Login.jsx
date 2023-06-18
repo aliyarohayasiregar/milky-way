@@ -4,7 +4,7 @@ export default function Login() {
   const [login, setLogin] = useState({});
 
   return (
-    <form>
+    <form className="card">
       <label>
         Email
         <input type="email" />

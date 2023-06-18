@@ -1,3 +1,4 @@
+import Fruits from "./components/Fruits";
 import Header from "./components/Header";
 import Login from "./components/Login";
 import MovingDot from "./components/MovingDot";
@@ -31,9 +32,10 @@ export default function App() {
     <>
       <Header />
       <main>
+        <Fruits />
         {/* <MovingDot /> */}
         {/* <Login /> */}
-        <Register2 />
+        {/* <Register2 /> */}
         {/* {products.map((product) => (
           <Product
             key={product.id}
